@@ -13,4 +13,4 @@ app.use("/api/student",router)
 app.use("/api/teacher",router2);
 app.listen(8080,()=>{
     console.log("application is successfully running");
-})
+});
