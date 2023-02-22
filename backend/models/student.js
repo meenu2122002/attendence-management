@@ -85,7 +85,7 @@ const schema = new mongoose.Schema({
     
     universityname: {
         type: String,
-        enum: ["jcboseust"],
+        enum: ["jcboseust","jc bose ust"],
         
     },
 course:{

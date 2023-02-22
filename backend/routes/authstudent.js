@@ -159,7 +159,8 @@ router.post("/signup", body('email').isEmail(),
       branch,course:req.body.branch,skills
 
     });
-    res.send(await student.save());
+    const d=await student.save();
+    res.redirect("http://localhost:3000/")
     // console.log(await student.save());
   
   });
